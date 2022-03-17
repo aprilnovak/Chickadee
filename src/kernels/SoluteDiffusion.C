@@ -2,8 +2,6 @@
 
 registerMooseObject("ChickadeeApp", SoluteDiffusion);
 
-defineLegacyParams(SoluteDiffusion);
-
 InputParameters
 SoluteDiffusion::validParams()
 {

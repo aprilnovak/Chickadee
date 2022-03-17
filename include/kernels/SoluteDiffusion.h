@@ -2,11 +2,6 @@
 
 #include "Kernel.h"
 
-class SoluteDiffusion;
-
-template <>
-InputParameters validParams<SoluteDiffusion>();
-
 class SoluteDiffusion : public Kernel
 {
 public:
